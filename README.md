@@ -16,45 +16,45 @@ The project includes:
 
 # What it can do
 
-Evaluates performance metrics:
+- Evaluates performance metrics:
 
-- **interval**: arrival interval, departure interval
+  - **interval**: arrival interval, departure interval
 
-- **delay**: waiting time, queue length
+  - **delay**: waiting time, queue length
 
-- **age of information**: mean age, peak age, effective departing ratio
+  - **age of information**: mean age, peak age, effective departing ratio
 
-Scheduling polices are categorised based on
+- Scheduling polices are categorised based on
 
-- FCFS or LCFS
+  - FCFS or LCFS
 
-- Preemptive or Non-Preemptive
+  - Preemptive or Non-Preemptive
 
-- Priority or Non-Priority: arrivals with different priorities
+  - Priority or Non-Priority: arrivals with different priorities
 
-- Size-based or not: SRPT (shortest-remaining-processing-time)
+  - Size-based or not: SRPT (shortest-remaining-processing-time)
 
-- Age-based or not: SEA (shortest-expected-age) *not available right now*
+  - Age-based or not: SEA (shortest-expected-age) *not available right now*
 
-Scheduling polices supported:
+- Scheduling polices supported:
 
-- **FCFS**
+  - **FCFS**
 
-- **FCFSPriority**: FCFS + Priority
+  - **FCFSPriority**: FCFS + Priority
 
-- **FCFSSRPT**: FCFS + SRPT
+  - **FCFSSRPT**: FCFS + SRPT
 
-- **FCFSSEA**: FCFS + SEA
+  - **FCFSSEA**: FCFS + SEA
 
-- **LCFS**:
+  - **LCFS**:
 
-- **Pre-LCFS**: LCFS + Preemptive
+  - **Pre-LCFS**: LCFS + Preemptive
 
-- **LCFSPriority**: LCFS + Priority
+  - **LCFSPriority**: LCFS + Priority
 
-- **LCFSSRPT**: LCFS + SRPT
+  - **LCFSSRPT**: LCFS + SRPT
 
-- **LCFSSEA**: LCFS + SEA
+  - **LCFSSEA**: LCFS + SEA
 
 
 ## How the code works

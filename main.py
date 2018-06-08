@@ -16,7 +16,7 @@ def simulate():
     run simulation for different arrival rates and plot curves
     '''
     arrival_rates = [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4]
-    Nuser=100000
+    Nuser=1000
     user_prob=[0.5, 0.5]
     mu = [0.8, 0.08]
     modes = ['FCFS', 'FCFSPriority','FCFSSRPT','FCFSSEA', 'LCFS', 'Pre-LCFS','LCFSPriority',  'LCFSSRPT',  'LCFSSEA']
